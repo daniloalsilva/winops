@@ -5,14 +5,14 @@
 		<link>http://winops.com.br/</link>
 		<description>Welcome!</description>
 		<copyright>2018</copyright>
-		<pubDate>Sun, 23 Sep 2018 19:46:05 GMT</pubDate>
-		<lastBuildDate>Sun, 23 Sep 2018 19:46:05 GMT</lastBuildDate>
+		<pubDate>Sun, 23 Sep 2018 20:19:30 GMT</pubDate>
+		<lastBuildDate>Sun, 23 Sep 2018 20:19:30 GMT</lastBuildDate>
 		<item>
 			<title>O PRIMEIRO POST</title>
-			<link>http://winops.com.br/post/first-post</link>
+			<link>http://winops.com.br/post/20180923-o-primeiro-post</link>
 			<description>&lt;p&gt;&lt;strong&gt;TL;DR.&lt;/strong&gt; Este é o primeiro post, mas não a minha primeira tentativa de manter um &lt;a href="http://danilos.com.br"&gt;Blog&lt;/a&gt; - so may it be eternal while it lasts. Ah, antes que eu esqueça: Vamos falar sobre DevOps em Windows.&lt;/p&gt;</description>
 			<enclosure url="http://winops.com.br/images/bg/desert-alone.jpg" length="0" type="image" />
-			<guid>http://winops.com.br/post/first-post</guid>
+			<guid>http://winops.com.br/post/20180923-o-primeiro-post</guid>
 			<pubDate>Sun, 23 Sep 2018 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;p&gt;&lt;strong&gt;TL;DR.&lt;/strong&gt; Este é o primeiro post, mas não a minha primeira tentativa de manter um &lt;a href="http://danilos.com.br"&gt;Blog&lt;/a&gt; - so may it be eternal while it lasts. Ah, antes que eu esqueça: Vamos falar sobre DevOps em Windows.&lt;/p&gt;
 &lt;p&gt;Tempos atrás (lá por volta de 2013), eu tentei manter um Blog no ar, mas logo após os dois primeiros posts, eu desanimei totalmente. Tanto pela minha desculpa na época sobre a falta de tempo - que hoje percebo ter sido muito mais uma falta de organização que tempo - quanto pelo hype de oversharing.&lt;/p&gt;
@@ -28,11 +28,26 @@
 &lt;blockquote class="blockquote"&gt;
 &lt;p&gt;A questão é que, mesmo com toda a dificuldade na época, nós automatizavamos tudo que podíamos no gerenciamento do ambiente, e as pessoas precisavam saber que nem só de GUI vive o Windows.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Mais recentemente, o principal motivo por ter postergado a criação deste blog, foi a escolha da plataforma para hospedar o conteúdo. Sem querer, acabei focando muito mais no que não era essencial para realizar o que era realmente importante - começar a escrever conteúdo.&lt;/p&gt;
+&lt;p&gt;Mais recentemente, o principal motivo por ter postergado a criação deste blog, foi a escolha da plataforma para hospedar o conteúdo. Sem querer, acabei focando muito mais no que não era essencial para realizar o que era realmente importante - começar a escrever conteúdo (a escolha da plataforma vale um post dedicado ao assunto).&lt;/p&gt;
 &lt;h2 id="criacao-do-winops"&gt;Criação do WinOps&lt;/h2&gt;
 &lt;p&gt;Apenas um parenteses: o WinOps não foi criado para ser uma página exclusiva minha, a ideia é que haja colaboração de outros profissionais sobre os temas abordados aqui. Se em algum momento se fizer necessário, o conteúdo mais informal (como esse post) pode ser migrado para outro local.&lt;/p&gt;
 &lt;p&gt;A ideia de criar o WinOps surgiu de uma certa frustração com a falta de conteúdo disponível sobre automação e DevOps em Windows. Uma busca rápida sobre DevOps hoje vai te levar a paginas, cursos e afins sobre softwares voltados quase que exclusivamente para Linux - mas nada para Windows.&lt;/p&gt;
 &lt;p&gt;Se anos atrás era importante divulgar conteúdo sobre automação de ambiente Windows, hoje é essencial. Grande parte do conteúdo que eu mesmo consumo online, parte de publicações independentes, então porque não contribuir também?&lt;/p&gt;
+&lt;p&gt;E só para citar: É muito provável que nos conteúdos citados aqui hajam também implementações usando Linux. Não é o fato de o intuíto principal da página ser DevOps em Windows que as stacks demonstradas devam ser desenvolvidas totalmente em Windows.&lt;/p&gt;
+&lt;p&gt;Para os posts técnicos, vou tentar utilizar um formato que demonstre a configuração utilizando CLI e GUI, da seguinte forma:&lt;/p&gt;
+&lt;div class="row"&gt;
+    &lt;div class="col-md-6"&gt;
+        &lt;h2&gt;CLI&lt;/h2&gt;
+        Implementação utilizando Command lines:
+    &lt;/div&gt;
+    &lt;div class="col-md-6"&gt;
+        &lt;h2&gt;GUI&lt;/h2&gt;
+        Implementação utilizando Command lines:
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br /&gt; 
+&lt;p&gt;Acho que está bom para um primeiro post, não?!&lt;/p&gt;
+&lt;p&gt;Se você teve saco para ler até aqui, obrigado, pode esperar que vem conteúdo interessante por aí!&lt;/p&gt;
 </content:encoded>
 		</item>
 	</channel>
