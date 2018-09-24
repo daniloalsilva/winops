@@ -4,13 +4,13 @@
 	<id>http://winops.com.br/</id>
 	<title>WINOPS</title>
 	<rights>2018</rights>
-	<updated>2018-09-23T20:19:30Z</updated>
+	<updated>2018-09-24T01:55:47Z</updated>
 	<logo>http://winops.com.br/images/keyboard1.png</logo>
 	<subtitle>Welcome!</subtitle>
 	<entry>
-		<link href="http://winops.com.br/post/20180923-o-primeiro-post" />
+		<link href="http://winops.com.br/post/o-primeiro-post" />
 		<link rel="enclosure" type="image" href="http://winops.com.br/images/bg/desert-alone.jpg" />
-		<id>http://winops.com.br/post/20180923-o-primeiro-post</id>
+		<id>http://winops.com.br/post/o-primeiro-post</id>
 		<title>O PRIMEIRO POST</title>
 		<updated>2018-09-23T00:00:00Z</updated>
 		<content>&lt;p&gt;&lt;strong&gt;TL;DR.&lt;/strong&gt; Este é o primeiro post, mas não a minha primeira tentativa de manter um &lt;a href="http://danilos.com.br"&gt;Blog&lt;/a&gt; - so may it be eternal while it lasts. Ah, antes que eu esqueça: Vamos falar sobre DevOps em Windows.&lt;/p&gt;
@@ -21,30 +21,21 @@
 &lt;p&gt;Antes de continuar, é preciso ter algum contexto.&lt;/p&gt;
 &lt;p&gt;Vou tentar não me prolongar nesta parte, pois o post é sobre a criação desse Blog é não sobre minha vida profissional - quem sabe num post futuro.&lt;/p&gt;
 &lt;p&gt;Eu trabalhei na &lt;a href="https://www.locaweb.com.br/"&gt;Locaweb&lt;/a&gt; entre 2009 e 2018. Dentre os diversos serviços que a empresa oferece, seu carro chefe era a hospedagem de sites.&lt;/p&gt;
-&lt;p&gt;Desde a minha entrada na empresa eu trabalhei com Windows, o que nem sempre foi uma tarefa fácil. Olhando para trás, teria sido muito mais fácil e prático trabalhar com Linux, onde a automação de tarefas já era algo bem mais simples que em Windows - automação essa essencial para conseguir lidar com as tarefas do dia a dia para a quantidade enorme (e crescendo) de servidores que precisavam ser gerenciados.&lt;/p&gt;
+&lt;p&gt;Desde a minha entrada na empresa eu trabalhei com Windows, o que nem sempre foi uma tarefa fácil. Olhando para trás, teria sido muito mais fácil e prático trabalhar com Linux, onde a automação de tarefas já era algo bem mais simples que em Windows - automação essa, essencial para conseguir lidar com as tarefas do dia a dia para a quantidade enorme (e crescendo) de servidores que precisavam ser gerenciados.&lt;/p&gt;
 &lt;p&gt;Não é que fosse impossível automatizar ambientes Windows, só era complicado demais (nos Windows 2008+ a coisa começava a ficar mais fácil, mas tinhamos muitos servidores Windows 2003 - uma virada/migração de OS não era nada fácil, especialmente com o nível de customização que tinhamos). Se algum sysadmin Windows que estiver lendo esse post já automatizou a instalação de features num Windows 2003 com sysocmgr para ambientes em produção, sabe que é um treco que dá calafrios.&lt;/p&gt;
 &lt;p&gt;Em contraponto, a comunidade open-source crescia cada vez mais, com conteúdo em grande parte bem formatado, com ferramentas para gestão de configuração muito mais práticas, já voltadas para IaC que o SCCM, GPO e afins.&lt;/p&gt;
+&lt;p&gt;A questão é que, mesmo com toda a dificuldade na época, nós automatizavamos tudo que podíamos no gerenciamento do ambiente, e as pessoas precisavam saber que, mesmo com a dificuldade da época em relação a ferramentas e scripting, nem só de GUI vive o Windows.&lt;/p&gt;
 &lt;blockquote class="blockquote"&gt;
-&lt;p&gt;A questão é que, mesmo com toda a dificuldade na época, nós automatizavamos tudo que podíamos no gerenciamento do ambiente, e as pessoas precisavam saber que nem só de GUI vive o Windows.&lt;/p&gt;
+&lt;p&gt;Mais recentemente, o principal motivo por ter postergado a criação deste blog foi a escolha da plataforma para hospedar o conteúdo. Sem querer, acabei focando muito mais no que não era essencial para realizar o que era realmente importante - começar a escrever conteúdo (a escolha da plataforma vale um post dedicado ao assunto).&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Mais recentemente, o principal motivo por ter postergado a criação deste blog, foi a escolha da plataforma para hospedar o conteúdo. Sem querer, acabei focando muito mais no que não era essencial para realizar o que era realmente importante - começar a escrever conteúdo (a escolha da plataforma vale um post dedicado ao assunto).&lt;/p&gt;
 &lt;h2 id="criacao-do-winops"&gt;Criação do WinOps&lt;/h2&gt;
 &lt;p&gt;Apenas um parenteses: o WinOps não foi criado para ser uma página exclusiva minha, a ideia é que haja colaboração de outros profissionais sobre os temas abordados aqui. Se em algum momento se fizer necessário, o conteúdo mais informal (como esse post) pode ser migrado para outro local.&lt;/p&gt;
-&lt;p&gt;A ideia de criar o WinOps surgiu de uma certa frustração com a falta de conteúdo disponível sobre automação e DevOps em Windows. Uma busca rápida sobre DevOps hoje vai te levar a paginas, cursos e afins sobre softwares voltados quase que exclusivamente para Linux - mas nada para Windows.&lt;/p&gt;
-&lt;p&gt;Se anos atrás era importante divulgar conteúdo sobre automação de ambiente Windows, hoje é essencial. Grande parte do conteúdo que eu mesmo consumo online, parte de publicações independentes, então porque não contribuir também?&lt;/p&gt;
-&lt;p&gt;E só para citar: É muito provável que nos conteúdos citados aqui hajam também implementações usando Linux. Não é o fato de o intuíto principal da página ser DevOps em Windows que as stacks demonstradas devam ser desenvolvidas totalmente em Windows.&lt;/p&gt;
-&lt;p&gt;Para os posts técnicos, vou tentar utilizar um formato que demonstre a configuração utilizando CLI e GUI, da seguinte forma:&lt;/p&gt;
-&lt;div class="row"&gt;
-    &lt;div class="col-md-6"&gt;
-        &lt;h2&gt;CLI&lt;/h2&gt;
-        Implementação utilizando Command lines:
-    &lt;/div&gt;
-    &lt;div class="col-md-6"&gt;
-        &lt;h2&gt;GUI&lt;/h2&gt;
-        Implementação utilizando Command lines:
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;br /&gt; 
+&lt;p&gt;A ideia de criar o WinOps surgiu de uma certa frustração com a falta de conteúdo disponível sobre automação e DevOps em Windows. Uma busca rápida sobre DevOps hoje vai te levar a paginas, cursos e afins sobre softwares voltados quase que exclusivamente para Linux.&lt;/p&gt;
+&lt;p&gt;Até mesmo a busca por ferramentas equivalentes em Windows acaba se tornando um problema - eu sempre uso como exemplo a ferramenta &lt;strong&gt;lartc&lt;/strong&gt; (Linux Advanced Routing and Traffic Control), que contabiliza muito bem o uso de banda por processo, mas só existe em Linux (é bem provável que exista um contador de performance ou wmi no Windows para isso, mas eu ainda não encontrei).&lt;/p&gt;
+&lt;p&gt;Esse é um cenário que precisa mudar. Há muito espaço para se trabalhar com DevOps em Windows, mas é preciso saber automatizar as tarefas da forma correta, e não simplesmente com ports de aplicações que Linux para Windows. Se anos atrás era importante divulgar conteúdo sobre automação de ambiente Windows, hoje é essencial.&lt;/p&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;É muito provável que nas próximas publicações haja também implementações usando Linux. Não é o fato de o intuíto principal da página ser DevOps em Windows que as stacks demonstradas devam ser desenvolvidas totalmente em Windows. Não existe bala de prata em tecnologia, amiguinho.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Acho que está bom para um primeiro post, não?!&lt;/p&gt;
 &lt;p&gt;Se você teve saco para ler até aqui, obrigado, pode esperar que vem conteúdo interessante por aí!&lt;/p&gt;
 </content>
