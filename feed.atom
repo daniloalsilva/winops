@@ -4,9 +4,9 @@
 	<id>http://winops.com.br/</id>
 	<title>WINOPS</title>
 	<rights>2018</rights>
-	<updated>2018-09-24T02:23:43Z</updated>
-	<logo>http://winops.com.br/images/keyboard1.png</logo>
-	<subtitle>Welcome!</subtitle>
+	<updated>2018-09-24T03:05:12Z</updated>
+	<logo>http://winops.com.br/images/windows-keyboard.jpg</logo>
+	<subtitle>WIN(DOWS/DEV)OPS</subtitle>
 	<entry>
 		<link href="http://winops.com.br/post/o-primeiro-post" />
 		<link rel="enclosure" type="image" href="http://winops.com.br/images/bg/desert-alone.jpg" />
@@ -38,6 +38,7 @@
 &lt;/blockquote&gt;
 &lt;p&gt;Acho que está bom para um primeiro post, não?!&lt;/p&gt;
 &lt;p&gt;Se você teve saco para ler até aqui, obrigado, pode esperar que vem conteúdo interessante por aí!&lt;/p&gt;
+&lt;p&gt;Talvez.&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;&lt;strong&gt;TL;DR.&lt;/strong&gt; Este é o primeiro post, mas não a minha primeira tentativa de manter um &lt;a href="http://danilos.com.br"&gt;Blog&lt;/a&gt; - so may it be eternal while it lasts. Ah, antes que eu esqueça: Vamos falar sobre DevOps em Windows.&lt;/p&gt;</summary>
 	</entry>
